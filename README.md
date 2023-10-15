@@ -66,5 +66,5 @@ Create branch
 - Wait for your PR review and merge approval. I will review it as soon as possible. Thank you for your time and effort in improving this project!
 
 
-- Have a doubt about how to contribute refer [contribution guide]()
+- Have a doubt about how to contribute refer [contribution guide](https://github.com/HrutvikKhatkar/Restaurant_website_HacktoberFest/blob/main/CONTRIBUTING.md)
 
