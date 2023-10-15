@@ -1,7 +1,12 @@
 # Restaurant-website-hacktoberfest
 I am excited to welcome contributions from anyone interested in participating in Hacktoberfest 2023.
 
+## Project Description
+
+This project is a purely front-end project.These static webpage created using HTML and CSS.
+
 Take a look at the :  https://hotelrespweb.ccbp.tech/
+
 
 ![home_page](https://res.cloudinary.com/dbrenasbt/image/upload/v1697315926/home_page_qm2rdi.png)
 
