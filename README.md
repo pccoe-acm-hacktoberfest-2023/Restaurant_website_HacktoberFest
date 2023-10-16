@@ -46,7 +46,7 @@ Visit [hacktoberfest.com](hacktoberfest.com
 Clone the project
 
 ```bash
-  git clone https://github.com/your-username/Restaurant_website_HacktoberFest.git
+  git clone https://github.com/your_user_name/Restaurant_website_HacktoberFest.git
 ```
 
 Create branch
