@@ -31,7 +31,7 @@ Hacktoberfest is an event on GitHub or GitLab that encourages everyone to partic
 
 
 
-Visit [hacktoberfest.com]([hacktoberfest.com](https://hacktoberfest.com/)
+Visit [hacktoberfest.com](https://hacktoberfest.com/)
 ) <sup>[↗](https://github.com)</sup> for more information.
 
 
