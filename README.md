@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # Restaurant-website-hacktoberfest
+=======
+# PCCOE-ACM-HACKTOBERFEST-2023
+## Restaurant-website-hacktoberfest
+>>>>>>> c23e674f44f7db2e9c436ebb044db61eff1bbef1
 I am excited to welcome contributions from anyone interested in participating in Hacktoberfest 2023.
 
 ## Project Description
@@ -30,7 +35,11 @@ Hacktoberfest is an event on GitHub or GitLab that encourages everyone to partic
 
 
 
+<<<<<<< HEAD
 Visit [hacktoberfest.com](https://hacktoberfest.com/
+=======
+Visit [hacktoberfest.com](https://hacktoberfest.com/)
+>>>>>>> c23e674f44f7db2e9c436ebb044db61eff1bbef1
 ) <sup>[↗](https://github.com)</sup> for more information.
 
 
@@ -45,7 +54,11 @@ Visit [hacktoberfest.com](https://hacktoberfest.com/
 Clone the project
 
 ```bash
+<<<<<<< HEAD
   git clone https://github.com/your-username/restaurant-website.git
+=======
+  git clone https://github.com/your_user_name/Restaurant_website_HacktoberFest.git
+>>>>>>> c23e674f44f7db2e9c436ebb044db61eff1bbef1
 ```
 
 Create branch
@@ -65,8 +78,14 @@ Create branch
 - Create a new pull request from your forked repo at GitHub. (Click on the green "Compare & pull request" button that is near the top of the page.)
 - Wait for your PR review and merge approval. I will review it as soon as possible. Thank you for your time and effort in improving this project!
 
+<<<<<<< HEAD
 - Have a doubt about how to contribute refer [contribution guide](https://github.com/HrutvikKhatkar/Restaurant_website_HacktoberFest/blob/main/CONTRIBUTING.md)
 
 
 
 
+=======
+
+- Have a doubt about how to contribute refer [contribution guide](https://github.com/HrutvikKhatkar/Restaurant_website_HacktoberFest/blob/main/CONTRIBUTING.md)
+
+>>>>>>> c23e674f44f7db2e9c436ebb044db61eff1bbef1
