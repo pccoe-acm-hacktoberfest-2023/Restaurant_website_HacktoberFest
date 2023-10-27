@@ -1,44 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Anybody:wght@300;700&family=DM+Serif+Display:ital@0;1&family=Dancing+Script&family=Norican&family=Oleo+Script:wght@700&family=Reenie+Beanie&family=Satisfy&display=swap');
+
 .food-munch-logo {
   width: 80px;
   height: 70px;
 }
 
 html{
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 #navItem1 {
   color: #323f4b;
-  font-family: "Roboto";
+  font-family: "Aclonica"
 }
 #navItem2 {
   color: #323f4b;
-  font-family: "Roboto";
+  font-family: "Aclonica"
 }
 #navItem3 {
   color: #323f4b;
-  font-family: "Roboto";
+  font-family: "Aclonica"
 }
 #navItem4 {
   color: #323f4b;
-  font-family: "Roboto";
+  font-family: "Aclonica"
 }
 .banner-section-bg-container {
-  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png");
+  background-image: url("https://hungerbay.com/assets/images/b6.jpg");
   height: 100vh;
   background-size: cover;
 }
 .banner-heading {
   color: white;
-  font-family: "Roboto";
-  font-size: 45px;
+  font-family: "Dancing Script";
+  font-size: 70px;
   font-weight: 300;
 }
 .banner-caption {
   color: #f5f7fa;
-  font-family: "Roboto";
-  font-size: 24px;
+  font-family: "satisfy";
+  font-size: 30px;
   font-weight: 300;
 }
 .custom-button {
@@ -50,6 +55,12 @@ html{
   border-radius: 8px;
   margin-right: 10px;
 }
+
+
+.custom-button:hover{
+    background-image: linear-gradient(#FFFDD0, #FFFDD0);
+    color: #d0b200;
+}
 .custom-outline-button {
   color: #d0b200;
   background-color: transparent;
@@ -60,12 +71,14 @@ html{
   border-color: #d0b200;
   border-radius: 8px;
 }
+
+
 .wcu-section {
-  background-color: #f9fbfe;
+  background-color: #FFFDD0;
 }
 .wcu-section-heading {
   color: #183b56;
-  font-family: "Roboto";
+  font-family: "DM Serif";
   font-size: 28px;
   font-weight: 700;
 }
@@ -88,13 +101,13 @@ html{
 }
 .wcu-card-title {
   color: #323f4b;
-  font-family: "Roboto";
+  font-family: "DM Serif";
   font-size: 22px;
   font-weight: 500;
 }
 .wcu-card-description {
   color: #7b8794;
-  font-family: "Roboto";
+  font-family: "Quintessential";
   font-size: 16px;
 }
 .offers {
@@ -116,8 +129,8 @@ html{
 }
 .menu-card-title {
   color: #323f4b;
-  font-family: "Roboto";
-  font-size: 18px;
+  font-family: "Norican";
+  font-size: 30px;
   font-weight: 500;
   margin-top: 24px;
 }
@@ -144,8 +157,9 @@ html{
 }
 .healthy-food-section-description {
   color: #5a7184;
-  font-family: "Roboto";
+  font-family: "Anybody";
   font-size: 16px;
+  font-weight: 700;
 }
 .delivery-and-payment-section {
   background-color: white;
@@ -161,8 +175,9 @@ html{
 }
 .delivery-and-payment-section-description {
   color: #5a7184;
-  font-family: "Roboto";
+  font-family: "Anybody";
   font-size: 16px;
+  font-weight: 700;
 }
 .payment-card-img {
   width: 50px;
@@ -174,14 +189,14 @@ html{
 }
 .thanking-customers-section-heading {
   color: #183b56;
-  font-family: "Roboto";
-  font-size: 28px;
+  font-family: "Reenie Beanie";
+  font-size: 35px;
   font-weight: 700;
 }
 .thanking-customers-section-description {
   color: #5a7184;
-  font-family: "Roboto";
-  font-size: 16px;
+  font-family: "Anybody";
+  font-size: 20px;
 }
 .thanking-customers-section-img {
   width: 270px;
@@ -197,7 +212,7 @@ html{
 .follow-us-section-heading {
   text-align: center;
   color: #183b56;
-  font-family: "Roboto";
+  font-family: "Oleo Script";
   font-size: 28px;
   font-weight: 700;
 }
