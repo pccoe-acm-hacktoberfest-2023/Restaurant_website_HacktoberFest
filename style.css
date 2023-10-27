@@ -246,3 +246,9 @@ html{
   font-family: "Roboto";
   font-size: 14px;
 }
+/* navbar hover effect */
+.navbar-nav a:hover {
+  background: rgba(237, 214, 8, 0.785);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
