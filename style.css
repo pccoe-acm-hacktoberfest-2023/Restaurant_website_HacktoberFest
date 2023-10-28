@@ -78,10 +78,12 @@
   border-color: #e5eaf4;
   border-radius: 16px;
 }
+
 .wcu-card:hover{
   border-color: rgb(216, 164, 42);
   opacity: 0.7;
 }
+
 .wcu-card-image {
   width: 87px;
   height: 90px;
