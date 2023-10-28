@@ -246,3 +246,14 @@ html{
   font-family: "Roboto";
   font-size: 14px;
 }
+.wcu-card:hover {
+  border-color: rgb(216, 164, 42);
+  opacity: 0.7;
+  /* cursor: pointer; */
+}
+
+.navbar-nav a:hover {
+  background: rgba(237, 214, 8, 0.785);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+}
