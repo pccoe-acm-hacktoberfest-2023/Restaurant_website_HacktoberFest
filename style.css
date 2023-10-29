@@ -246,3 +246,32 @@ html{
   font-family: "Roboto";
   font-size: 14px;
 }
+
+.wcu-card {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.wcu-card:hover {
+  transform: scale(1.1);
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1;
+  width: 100%;
+  transition: opacity 0.2s;
+  opacity: 0;
+}
+
+.wcu-card:hover .popup {
+  display: block;
+  opacity: 1;
+}
