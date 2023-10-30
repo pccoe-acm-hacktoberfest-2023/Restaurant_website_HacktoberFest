@@ -95,6 +95,12 @@ html{
   border-color: #e5eaf4;
   border-radius: 16px;
 }
+
+.wcu-card:hover{
+  border-color: rgb(216, 164, 42);
+  opacity: 0.7;
+}
+
 .wcu-card-image {
   width: 87px;
   height: 90px;
@@ -229,7 +235,7 @@ html{
 }
 .icon {
   color: #d0b200;
-  font-size: 35px;
+  font-size: 40px;
 }
 .footer-section {
   background-color: #0d2436;
@@ -246,9 +252,40 @@ html{
   font-family: "Roboto";
   font-size: 14px;
 }
+
 /* navbar hover effect */
 .navbar-nav a:hover {
   background: rgba(237, 214, 8, 0.785);
   transition: all 0.3s ease-in-out;
   border-radius: 10px;
+
+
+.wcu-card {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.wcu-card:hover {
+  transform: scale(1.1);
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1;
+  width: 100%;
+  transition: opacity 0.2s;
+  opacity: 0;
+}
+
+.wcu-card:hover .popup {
+  display: block;
+  opacity: 1;
+
 }
