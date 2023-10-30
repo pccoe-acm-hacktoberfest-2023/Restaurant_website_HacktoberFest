@@ -261,13 +261,12 @@ html{
 }
 
 .navbar-nav .nav-link {
-  /* 其他样式属性 */
 
-  transition: color 0.3s; /* 添加颜色过渡效果 */
+  transition: color 0.3s;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #ffc107; /* 悬停时修改字体颜色 */
+  color: #ffc107;
 }
 
 .section {
@@ -281,5 +280,5 @@ html{
 }
 
 .section.active {
-  transform: scale(1); /* 滚动到部分时动态缩放效果 */
+  transform: scale(1);
 }
