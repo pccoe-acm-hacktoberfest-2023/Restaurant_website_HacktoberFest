@@ -246,3 +246,39 @@ html{
   font-family: "Roboto";
   font-size: 14px;
 }
+
+.navbar {
+  background: linear-gradient(to bottom, #ff5733, #ff8c1a);
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.navbar-nav .nav-link {
+
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
+
+.section {
+  text-align: center;
+  padding: 150px 0;
+  font-size: 36px;
+  color: #333;
+  background: #fff;
+  transform: scale(0);
+  transition: transform 0.5s ease;
+}
+
+.section.active {
+  transform: scale(1);
+}
