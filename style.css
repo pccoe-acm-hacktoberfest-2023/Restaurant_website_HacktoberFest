@@ -5,6 +5,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Anybody:wght@300;700&family=DM+Serif+Display:ital@0;1&family=Dancing+Script&family=Norican&family=Oleo+Script:wght@700&family=Reenie+Beanie&family=Satisfy&display=swap');
 
+
+body::-webkit-scrollbar{
+  display: none;
+}
 .food-munch-logo {
   width: 80px;
   height: 70px;
@@ -258,6 +262,12 @@ html{
   /* cursor: pointer; */
 }
 
+.navbar{
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index:1; 
+}
 
 /* navbar hover effect */
 
