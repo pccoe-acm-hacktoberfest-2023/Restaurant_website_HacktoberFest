@@ -10,214 +10,383 @@
   height: 70px;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
+
 #navItem1 {
-  color: #323f4b;
-  font-family: "Aclonica"
+  color: #313e4a;
+  font-family: "Aclonica";
+  transition: 0.4s;
+  padding-left: 10px;
+  border-radius: 10px;
 }
+
+#navItem1:hover {
+  color: #000000;
+  background: rgba(200, 200, 200, 0.4);
+  text-shadow: 2px 0px 2px white;
+  border-radius: 10px;
+  font-family: "Aclonica";
+}
+
 #navItem2 {
-  color: #323f4b;
-  font-family: "Aclonica"
+  color: #313e4a;
+  font-family: "Aclonica";
+  transition: 0.4s;
+  padding-left: 10px;
+  border-radius: 10px;
 }
+
+#navItem2:hover {
+  color: #000000;
+  background: rgba(200, 200, 200, 0.4);
+  text-shadow: 2px 0px 2px white;
+  border-radius: 10px;
+  font-family: "Aclonica";
+}
+
 #navItem3 {
-  color: #323f4b;
-  font-family: "Aclonica"
+  color: #313e4a;
+  font-family: "Aclonica";
+  transition: 0.4s;
+  padding-left: 10px;
+  border-radius: 10px;
 }
+
+#navItem3:hover {
+  color: #000000;
+  background: rgba(200, 200, 200, 0.4);
+  text-shadow: 2px 0px 2px white;
+  border-radius: 10px;
+  font-family: "Aclonica";
+}
+
 #navItem4 {
-  color: #323f4b;
-  font-family: "Aclonica"
+  color: #313e4a;
+  font-family: "Aclonica";
+  transition: 0.4s;
+  padding-left: 10px;
+  border-radius: 10px;
 }
+
+#navItem4:hover {
+  color: #000000;
+  background: rgba(200, 200, 200, 0.4);
+  text-shadow: 2px 0px 2px white;
+  border-radius: 10px;
+  font-family: "Aclonica";
+}
+
 .banner-section-bg-container {
   background-image: url("https://hungerbay.com/assets/images/b6.jpg");
   height: 100vh;
   background-size: cover;
 }
+
 .banner-heading {
   color: white;
-  font-family: "Dancing Script";
+  font-weight: 600;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 70px;
   font-weight: 300;
 }
+
 .banner-caption {
   color: #f5f7fa;
-  font-family: "satisfy";
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 30px;
   font-weight: 300;
 }
+
 .custom-button {
-  color: white;
-  background-image: linear-gradient(#d0b200, #a58d00);
+  color: rgb(208, 178, 0);
+  background-color: rgba(19, 19, 19, 0.5);
   width: 130px;
   height: 45px;
-  border-width: 0;
-  border-radius: 8px;
+  border-color: #cdaf04;
+   box-shadow: 0px 2px 2px rgba(220, 160, 40, 10);
+  border-width: 2px;
+  border-radius: 5px;
   margin-right: 10px;
+  transition: 0.4s;
 }
 
 
-.custom-button:hover{
-    background-image: linear-gradient(#FFFDD0, #FFFDD0);
-    color: #d0b200;
+.custom-button:hover {
+
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffce1f;
+  transform: translateY(-2px);
+  box-shadow: 0px 7px 7px rgba(220, 160, 40, 10);
+  border-radius: 50px;
+  letter-spacing: 1px;
+
+
 }
-.custom-outline-button {
-  color: #d0b200;
+
+.custom-transparent-button {
+  color: rgb(255, 255, 255);
   background-color: transparent;
   width: 130px;
   height: 45px;
-  border-style: solid;
+  border-color: #4b4a49;
+  font-family: 'Red Hat Display', sans-serif;
+  border-radius: 10px;
   border-width: 1px;
-  border-color: #d0b200;
-  border-radius: 8px;
+  margin-right: 10px;
+  box-shadow: 0px 2px 2px rgba(220, 160, 40, 10);
+  transition: 0.4s;
 }
 
+
+.custom-transparent-button:hover {
+
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffce1f;
+  transform: translateY(-2px);
+  box-shadow: 0px 7px 7px rgba(220, 160, 40, 10);
+  border-radius: 50px;
+  letter-spacing: 2px;
+
+
+}
+.custom-outline-button {
+  color: rgb(208, 178, 0);
+  background-color: rgba(19, 19, 19, 0.5);
+  width: 130px;
+  height: 45px;
+  border-color: #cdaf04;
+
+  border-width: 2px;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: 0.4s;
+}
+
+.custom-outline-button:hover {
+
+
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffce1f;
+  transform: translateY(-2px);
+  box-shadow: 0px 7px 7px rgba(220, 160, 40, 10);
+  border-radius: 50px;
+  letter-spacing: 1px;
+
+}
 
 .wcu-section {
   background-color: #FFFDD0;
 }
+
 .wcu-section-heading {
-  color: #183b56;
-  font-family: "DM Serif";
+  color: #000000;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 28px;
   font-weight: 700;
 }
+
 .wcu-section-description {
-  color: #5a7184;
-  font-family: "Roboto";
+  color: #000000;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 16px;
 }
+
 .wcu-card {
   text-align: center;
-  background-color: white;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #e5eaf4;
+   
+  background-image: radial-gradient(rgb(63, 40, 16), #000000);
+  border-width: 3px;
   border-radius: 16px;
+  transition: 0.3s;
 }
+
+.wcu-card:hover{
+  box-shadow: 0px 0px 18px rgba(58, 58, 58, 7);
+}
+
 .wcu-card-image {
-  width: 87px;
-  height: 90px;
+  width: 100px;
+  min-height: 100px;
+  
+  box-shadow: #cdc250;
 }
+
 .wcu-card-title {
-  color: #323f4b;
-  font-family: "DM Serif";
+  color: #f3d52b;
+  font-family:  'Julius Sans One', sans-serif;
   font-size: 22px;
   font-weight: 500;
+  text-shadow: 0px 0px 3px rgb(241, 226, 59);
 }
+
 .wcu-card-description {
-  color: #7b8794;
+  color: #e6e6e6;
   font-family: "Quintessential";
   font-size: 16px;
+  
 }
+
 .offers {
-  color: #323f4b;
+  color: #ffffff;
+  text-shadow: 0px 0px 5px rgba(194, 191, 152, 0.719);
   font-style: italic;
   font-weight: 600;
 }
+
 .explore-menu-section {
-  background-color: white;
+  background: rgb(3, 2, 2);
 }
+
 .menu-section-heading {
-  color: #183b56;
-  font-family: "Roboto";
-  font-size: 28px;
+  color: #ffffff;
+  text-align: left;
+  margin: 20px;
+  font-family: 'Buda', serif;
+  font-size: 45px;
   font-weight: 700;
+  transition: 0.3s;
+}
+.menu-section-heading:hover{
+  text-shadow: 4px -4px 4px rgba(220,220,220,4);
 }
 .menu-item-image {
-  border-radius: 16px;
+  border-radius: 33px;
+  object-fit: contain;
+  
+
 }
+
 .menu-card-title {
-  color: #323f4b;
-  font-family: "Norican";
-  font-size: 30px;
+  color: #ffffff;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 20px;
   font-weight: 500;
   margin-top: 24px;
 }
+
 .menu-item-link {
   color: #d0b200;
-  font-family: "Roboto";
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 14px;
   font-weight: 500;
+  transition:0.3s;
 }
+
+
+
+
 .menu-item-card {
-  border-radius: 16px;
+  border-radius: 66px;
+  object-fit: contain;
 }
+
 .healthy-food-section {
-  background-color: #f9fbfe;
+  background-color: #181818;
 }
+
 .healthy-food-section-img {
+ 
   width: 270px;
+ 
 }
+
 .healthy-food-section-heading {
-  color: #183b56;
-  font-family: "Roboto";
+  color: #ffffff;
+  font-family: 'Babylonica', cursive;
   font-size: 28px;
   font-weight: 700;
+  margin-top: 25px;
 }
+
 .healthy-food-section-description {
-  color: #5a7184;
-  font-family: "Anybody";
+  color: #a7a8a9;
+  font-family: 'Babylonica', cursive;
   font-size: 16px;
   font-weight: 700;
 }
+
 .delivery-and-payment-section {
-  background-color: white;
+  background-image: radial-gradient(rgb(78, 0, 0), #000000);
 }
+
 .delivery-and-payment-section-img {
   width: 270px;
 }
+
 .delivery-and-payment-section-heading {
-  color: #183b56;
-  font-family: "Roboto";
+  color: #eac212;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 28px;
   font-weight: 700;
+  transition:0.4s;
 }
+.delivery-and-payment-section-heading:hover {
+  letter-spacing:0.1em
+}
+
 .delivery-and-payment-section-description {
-  color: #5a7184;
+  color: #b4b4b4;
   font-family: "Anybody";
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 20px;
+ 
 }
+
 .payment-card-img {
   width: 50px;
   height: 50px;
   margin-right: 28px;
 }
+
 .thanking-customers-section {
-  background-image: radial-gradient(#fff8db, #fae38c);
+  background-image: radial-gradient(rgb(52, 62, 52), #000000);
 }
+
 .thanking-customers-section-heading {
-  color: #183b56;
-  font-family: "Reenie Beanie";
+  color: #cdc250;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 35px;
   font-weight: 700;
 }
+
 .thanking-customers-section-description {
-  color: #5a7184;
+  color: #b0a25e;
   font-family: "Anybody";
   font-size: 20px;
 }
+
 .thanking-customers-section-img {
   width: 270px;
   margin-bottom: 20px;
 }
+
 .thanking-customers-section-modal-title {
   color: #d0b200;
   font-weight: 800;
 }
+
 .follow-us-section {
-  background-color: white;
+  background: rgb(0, 0, 0);
 }
+
 .follow-us-section-heading {
   text-align: center;
-  color: #183b56;
-  font-family: "Oleo Script";
+  color: #ffffff;
+  font-family: "Old english", serif;
   font-size: 28px;
   font-weight: 700;
+  transition: 0.4s;
 }
+
+.follow-us-section-heading:hover {
+  letter-spacing: 2px;
+  text-shadow :0px 5px 5px rgba(222, 222, 222, 7);
+
+}
+
 .follow-us-icon-container {
-  background-color: #faf7e8;
+  background-color: #000000;
   width: 80px;
   height: 80px;
   border-radius: 40px;
@@ -227,22 +396,34 @@ html{
   padding-right: 16px;
   padding-left: 22px;
 }
+
 .icon {
   color: #d0b200;
   font-size: 35px;
+  border-radius: 11px;
+  transition: 0.3s;
+}
+.icon:hover{
+  color: #d0b200;
+  font-size: 35px;
+  box-shadow: 0px 7px 7px rgba(220, 160, 40, 10);
 }
 .footer-section {
-  background-color: #0d2436;
+
+  background-color: black;
 }
+
 .footer-section-mail-id {
-  color: #959ead;
+
+  color: #d6d6d6;
   font-family: "Roboto";
   font-weight: bold;
   font-size: 16px;
   margin-top: 20px;
 }
+
 .footer-section-address {
-  color: #959ead;
+  color: #d6b8b8;
   font-family: "Roboto";
   font-size: 14px;
 }
